@@ -29,7 +29,7 @@ e o valor 23 em uma variável B. A seguir troque os seus conteúdos fazendo com
 que o valor que está em A passe para B e vice-versa. Ao final, escrever os 
 valores que ficaram armazenados nas variáveis.
 
-#### Exercício 2b (desáfio)
+#### Exercício 2b (desafio)
 Repita o exercício anterior, mas seu algorítimo 
 deve utilizar apenas atribuições entre a duas variáveis, sem declarar
 uma terceira.
@@ -42,10 +42,10 @@ Crie uma função que salve os números da série de Fibonacci até chegar em x 
 (A série de Fibonacci é a seguinte: 0, 1, 1, 2, 3, 5, 8, 13, 21, etc... Para calculá-la, o primeiro e segundo
 elementos valem 1, daí por diante, o “n-ésimo” elemento vale o (n-1)-ésimo elemento somado ao (n-2)-ésimo elemento (ex: 8 = 5 + 3))
 
-#### Exercício 3b-1 (desáfio) 
+#### Exercício 3b-1 (desafio) 
 Crie uma função que, recebendo o array gerado na função anterior, retorne a soma dos valores do array.
 
-#### Exercício 3b-2 (desáfio) 
+#### Exercício 3b-2 (desafio) 
 Crie uma função que, recebendo o array gerado na função anterior, retorne a soma dos 
 valores do array. Utilize um algoritmo diferente do desafio 3b-1. (ex: se no desáfio 3b-1 seu algorítimo usou
 um loop, utilize recursão)
