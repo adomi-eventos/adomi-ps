@@ -12,5 +12,5 @@ no email tiago.sestari@adomi.com.br)
 
 #### Formato de entrega:
 - Você pode organizar o(s) arquivo(s) com as soluções dos exercícios da forma que julgar melhor.
-- Você pode usar qualquer linguagem de programação, mas dê preferência para JavaScript se possível.
+- Você deve usar JavaScript.
 - Sua entrega deve conter instruções de como devemos testar as suas soluções.
