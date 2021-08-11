@@ -14,3 +14,4 @@ no email tiago.sestari@adomi.com.br)
 - Você pode organizar o(s) arquivo(s) com as soluções dos exercícios da forma que julgar melhor.
 - Você deve usar JavaScript.
 - Sua entrega deve conter instruções de como devemos testar as suas soluções.
+- Você deve entregar em até 7 dias a parti do envio do email.
