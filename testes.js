@@ -81,7 +81,7 @@ function testEx2a() {
   
   // Comparando resultados da lógica da função com o resultado que estamos esperando
   if(arrayCompare(trocarVariavel(a, b), mockResult)) {
-    console.log('%c Variáveis trocadas com sucesso! Teste 2a bem sucedido!', 'color: #00FF00')
+    console.log('%c Variáveis trocadas com sucesso! Teste 2a bem sucedido!', 'color: #00FF00', trocarVariavel(a, b))
   } else {
     console.log('%c Teste 2a deu erro os valores não coincidem com o esperado!', 'color: #CD0000')
   }
@@ -97,7 +97,7 @@ function testEx2b() {
 
     // Comparando resultados da lógica da função com o resultado que estamos esperando
   if(arrayCompare(trocarVariavel(a, b), mockResult)) {
-    console.log('%c Variáveis trocadas com sucesso! Teste 2b bem sucedido!', 'color: #00FF00')
+    console.log('%c Variáveis trocadas com sucesso! Teste 2b bem sucedido!', 'color: #00FF00', trocarVariavel(a, b))
   } else {
     console.log('%c Teste 2b deu erro os valores não coincidem com o esperado!', 'color: #CD0000')
   }
@@ -109,21 +109,21 @@ testEx2b();
 function testEx3a(number, mockFibonacci) {
     // Comparando resultados da lógica da função com o resultado que estamos esperando
   if(arrayCompare(serieFibonacci(number), mockFibonacci)) {
-    console.log('%c Teste 3a bem sucedido', 'color: #00FF00')
+    console.log('%c Teste 3a bem sucedido', 'color: #00FF00', serieFibonacci(number))
   } else {
-    console.log('%c Teste 3a deu erro os valores não coincidem com o esperado!', 'color: #CD0000')
+    console.log('%c Teste 3a deu erro os valores não coincidem com o esperado!', 'color: #CD0000', serieFibonacci(number))
   }
 }
 
-testEx3a(10, [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]);  /* Modificando o número, pode modificar o comprimento do array da sequência de Fibonacci. O segundo parámetro é o mockup ou formato do resultado exato que tem que ser esperado. Se modifica a primeira, tem que modificar a segunda */
+testEx3a(12, [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]);  /* Modificando o número, pode modificar o comprimento do array da sequência de Fibonacci. O segundo parámetro é o mockup ou formato do resultado exato que tem que ser esperado. Se modifica a primeira, tem que modificar a segunda */
 
 //////////// Teste exercício 3b
 function testEx3b(number, total) {
     // Comparando resultados da lógica da função com o resultado que estamos esperando
   if(serieFibonacciSuma(number) === total) {
-    console.log('%c Teste 3b bem sucedido', 'color: #00FF00')
+    console.log('%c Teste 3b bem sucedido', 'color: #00FF00', serieFibonacciSuma(number))
   } else {
-    console.log('%c Teste 3b deu erro os valores não coincidem com o esperado!', 'color: #CD0000')
+    console.log('%c Teste 3b deu erro os valores não coincidem com o esperado!', 'color: #CD0000', serieFibonacciSuma(number))
   }
 }
 
@@ -133,9 +133,9 @@ testEx3b(10, 88)                                  /* O primeiro número vai depe
 function testEx3c(number, total) {
     // Comparando resultados da lógica da função com o resultado que estamos esperando
   if(serieFibonacciSumaDesafio(number) === total) {
-    console.log('%c Teste 3c bem sucedido', 'color: #00FF00')
+    console.log('%c Teste 3c bem sucedido', 'color: #00FF00', serieFibonacciSumaDesafio(number))
   } else {
-    console.log('%c Teste 3c deu erro os valores não coincidem com o esperado!', 'color: #CD0000')
+    console.log('%c Teste 3c deu erro os valores não coincidem com o esperado!', 'color: #CD0000', serieFibonacciSumaDesafio(number))
   }
 }
 
