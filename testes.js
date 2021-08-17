@@ -115,7 +115,7 @@ function testEx3a(number, mockFibonacci) {
   }
 }
 
-testEx3a(10, [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]);  /* */
+testEx3a(10, [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]);  /* Modificando o número, pode modificar o comprimento do array da sequência de Fibonacci. O segundo parámetro é o mockup ou formato do resultado exato que tem que ser esperado. Se modifica a primeira, tem que modificar a segunda */
 
 //////////// Teste exercício 3b
 function testEx3b(number, total) {
@@ -127,7 +127,7 @@ function testEx3b(number, total) {
   }
 }
 
-testEx3b(10, 88)                                  /* */
+testEx3b(10, 88)                                  /* O primeiro número vai depender do número que modifica o comprimento no exercício 3a, pois o exercício 3b, depende do array resultante do exercício anterior. O segundo número é a suma da serie de arrays que espera ser recebida da função, este número muda dependendo do comprimento e valores do array do 3a.*/
 
 //////////// Teste exercício 3c
 function testEx3c(number, total) {
@@ -139,5 +139,5 @@ function testEx3c(number, total) {
   }
 }
 
-testEx3c(10, 88);                                 /* */
+testEx3c(10, 88);                                 /* O primeiro número vai depender do número que modifica o comprimento no exercício 3a, pois o exercício 3b, depende do array resultante do exercício anterior. O segundo número é a suma da serie de arrays que espera ser recebida da função, este número muda dependendo do comprimento e valores do array do 3a.*/
 
