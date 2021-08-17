@@ -1,16 +1,9 @@
-# Processo Seletivo - Adomi
+### Instruções de como visualizar o projeto.
 
-#### Os exercícios estão no arquivo: [Exercícios](processo_seletivo.md)
+Boa noite, me chamo Hemerson Walviesse me candidatei a vaga pois possuo qualificações para a mesma e estou comprometido a aprender com a empresa para alcançar crescimento profissional de ambas as partes.
 
-#### Instruções para entrega:
-- Faça um Fork do repositório
-- Abra uma pull request da sua branch
+1º Ao abrir o index.html no navegador e clicar com o botão direito em qualquer parte, aperte a opção inspencionar. Após selecione o console e encontrará os 7 desafios resolvidos.
 
-(se tiver dificuldade para seguir algum dos passos acima entre em contato
-no email tiago.sestari@adomi.com.br)
+2º Para visualizar o código abra a página main.js
 
-#### Formato de entrega:
-- Você pode organizar o(s) arquivo(s) com as soluções dos exercícios da forma que julgar melhor.
-- Você deve usar JavaScript.
-- Sua entrega deve conter instruções de como devemos testar as suas soluções.
-- Você deve entregar em até 7 dias a partir do envio do email.
+Agradeço a oportunidade de participar do processo seletivo. Aguardo o feedback!
