@@ -3,8 +3,7 @@
 #### Os exercícios estão no arquivo: [Exercícios](processo_seletivo.md)
 
 #### Instruções para entrega:
-- Clone o repositório
-- Crie uma branch com o nome no formato nome_sobrenome
+- Faça um Fork do repositório
 - Abra uma pull request da sua branch
 
 (se tiver dificuldade para seguir algum dos passos acima entre em contato
