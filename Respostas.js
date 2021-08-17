@@ -18,8 +18,6 @@ for(var i = 0; i <= lista.length; i++){
 }
 
 //Desafio 1:
-//Defini lista a ser testada.
-const lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 //for(let i = 0; i <= lista.length; i++){lista[i] % 2 === 0 ? console.log('Par'):console.log('Impar')}
 
@@ -54,19 +52,19 @@ trocaTroca();
 
 //Desafio 2:
 //Defni as variáveis e seus valores.
-let A = 19;
-let B = 23;
+let A1 = 19;
+let B1 = 23;
 //Criei uma função para executar a troca de valores.
-function trocaTroca(){
+function trocaTrocaNovo(){
     //Somei ambos os valores.
-    A = A + B;
+    A1 = A1 + B1;
     //Subtrai os valores de cada variavel da variavel somada.
-    B = A - B;
-    A = A - B;
-    console.log(A, B);
+    B1 = A1 - B1;
+    A1 = A1 - B1;
+    console.log(A1, B1);
 }
 //Chamei a fução para executar a troca e imprimir os valores.
-trocaTroca();
+trocaTrocaNovo();
 
 /*Considerações finais: Para utilizar terá que fazer alterações diretamente nas variaveis, seja pelo código ou por atribuição, após novas atribuiçoes a função deverá ser chamada novamente.*/
 
