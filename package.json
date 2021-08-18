@@ -1,0 +1,9 @@
+{
+  "name": "adomi-ps",
+  "version": "1.0.0",
+  "description": "adomi selection process challenges solved",
+  "main": "index.js",
+  "repository": "https://github.com/eliasbiondo/adomi-ps",
+  "author": "Elias Biondo <contato@eliasbiondo.com>",
+  "license": "MIT"
+}
