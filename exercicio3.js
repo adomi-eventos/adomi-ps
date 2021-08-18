@@ -1,3 +1,7 @@
+// Para testar para um fibonacci(N), basta editar a variavel N
+
+var N = 5;
+
 // Exercicio 1a
 
 // Uma forma simples de resolver eh utilizando a recursao f(n) = f(n - 1) + f(n - 2) 
@@ -25,7 +29,7 @@ function fib(x) {
     return PD;
 }
 
-console.log(fib(5));
+console.log(fib(N));
 
 // Exercicio 2b-1
 
@@ -37,7 +41,7 @@ function soma(arr) {
     return soma;
 }
 
-console.log(soma(fib(20)))
+console.log(soma(fib(N)))
 
 // Exercicio 2b-2
 
@@ -52,7 +56,7 @@ console.log(soma(fib(20)))
 // Este algoritmo roda em tempo O(n * log(n)) onde n eh o tamanho do array, ja que em cada chamada
 // O tamanho do intervalo eh dividido por 2, entao em log(n) chamadas temos que o tamanho sera 1.
 
-var v = fib(20);
+var v = fib(N);
 
 function divide(i, j) {
     if (i === j) return v[i];
@@ -62,5 +66,5 @@ function divide(i, j) {
     return divide(i, mid) + divide(mid + 1, j);
 }
 
-console.log(divide(0, 19));
+console.log(divide(0, N - 1));
 
