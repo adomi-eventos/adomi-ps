@@ -17,11 +17,11 @@ class Number {
 }
 
 /**
- * Swipe "Number" objects values.
+ * Swap "Number" objects values.
  * @param first A "Number" object.
  * @param second A "Number" object.
  */
-function swipe(first, second) {
+function swap(first, second) {
 
     // Assigning the first object value as the first object value plus second object value.
     first.value += second.value;
@@ -47,16 +47,21 @@ function swipe(first, second) {
     // Instancing the "b" variable as a "Number" object with the "23" value.
     let b = new Number(23);
 
-    // Printing the values before swipe.
+    // Printing the values before swap.
     console.log(`a: ${a.value} b: ${b.value}`);
 
-    // Swiping the values by using the swipe() function.
-    swipe(a, b);
+    // Swiping the values by using the swap() function.
+    swap(a, b);
 
-    // Printing the values after swipe.
+    // Printing the values after swap.
     console.log(`a: ${a.value} b: ${b.value}`);
 
     // Returning standard machine-readable success answer.
     return 0;
 
 })();
+
+/**
+ * Exporting the "swap()" function to run jest unitary tests.
+ */
+ module.exports = { Number, swap };
