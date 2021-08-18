@@ -42,3 +42,8 @@ function isOddOrEven(number) {
     return 0;
 
 })();
+
+/**
+ * Exporting the "isOddOrEven()" function to run jest unitary tests.
+ */
+ module.exports = isOddOrEven;
