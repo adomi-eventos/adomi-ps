@@ -72,3 +72,8 @@ function getFibonacciSequence(x) {
     return 0;
 
 })();
+
+/**
+ * Exporting the "getFibonacciSequence()" function to run jest unitary tests.
+ */
+ module.exports = getFibonacciSequence;

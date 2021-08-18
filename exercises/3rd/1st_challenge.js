@@ -96,3 +96,8 @@ function getSumOfAllIn(array) {
     return 0;
 
 })();
+
+/**
+ * Exporting the "getSumOfAllIn()" function to run jest unitary tests.
+ */
+ module.exports = getSumOfAllIn;
