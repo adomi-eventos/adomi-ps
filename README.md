@@ -1,16 +1,18 @@
-# Processo Seletivo - Adomi
 
-#### Os exercícios estão no arquivo: [Exercícios](processo_seletivo.md)
+<h1  align="center">Processo Seletivo - Adomi</h1>
 
-#### Instruções para entrega:
-- Faça um Fork do repositório
-- Abra uma pull request da sua branch
+#### Os arquivos estão:
+### [Exercicío 1 (com desafio 1.1)](ex1.js)
+### [Exercicío 2 (com desafio 2.1)](ex2.js)
+### [Exercicío 3 (com desafio 3.1)](ex3.js)
 
-(se tiver dificuldade para seguir algum dos passos acima entre em contato
-no email tiago.sestari@adomi.com.br)
-
-#### Formato de entrega:
-- Você pode organizar o(s) arquivo(s) com as soluções dos exercícios da forma que julgar melhor.
-- Você deve usar JavaScript.
-- Sua entrega deve conter instruções de como devemos testar as suas soluções.
-- Você deve entregar em até 7 dias a partir do envio do email.
+## Instruções para testar os Desafios
+#### Na pasta do projeto, abra o git bash e rode o comando
+```
+> code .
+```  
+#### No VS Code
+```
+// Rodar o projeto no Vs Code
+// Clique em Abra um dos arquivo > Executar > Executar Sem Depuração 
+```
