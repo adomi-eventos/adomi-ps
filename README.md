@@ -36,25 +36,19 @@ For the second option, you'll need:
 
 When all requirements are already met, run the code below on your terminal:
 
-<pre>
-<code>git clone https://github.com/eliasbiondo/adomi-ps.git
-cd adomi-ps
-</code>
+<pre><code>git clone https://github.com/eliasbiondo/adomi-ps.git
+cd adomi-ps</code>
 </pre>
 
 If you're using NPM (Node Package Manager):
 
-<pre>
-<code>npm install
-npm test
-</code>
+<pre><code>npm install
+npm test</code>
 </pre>
 
 If you're using Yarn:
-<pre>
-<code>yarn install
-yarn test
-</code>
+<pre><code>yarn install
+yarn test</code>
 </pre>
 
 
