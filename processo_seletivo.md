@@ -1,8 +1,8 @@
 ## Resolva os exercícios a seguir 
 
-Alguns deles estão marcados como desafio. Se não conseguir faze-los os desafios
+Alguns deles estão marcados como desafio. Se não conseguir fazer os desafios
 não tem problema, você pode entregar a prova sem eles.
-Caso seu código inicial já atenda o desafio vamos considerá-lo conclúido.
+Caso seu código inicial já atenda ao desafio vamos considerá-lo concluído.
 
 Você também pode deixar explicações do seu raciocínio nos comentários, 
 mesmo que não chegue a uma solução do exercício.
@@ -31,7 +31,7 @@ valores que ficaram armazenados nas variáveis.
 
 #### Exercício 2b (desafio)
 Repita o exercício anterior, mas seu algorítimo 
-deve utilizar apenas atribuições entre a duas variáveis, sem declarar
+deve utilizar apenas atribuições entre as duas variáveis, sem declarar
 uma terceira.
 
 ____________________________________
