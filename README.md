@@ -8,7 +8,11 @@
 ```shell
 git clone https://github.com/sleiph/adomi-ps.git
 ```
-3. executar os scripts NPM:
+3. Navegar pra pasta clonada:
+```shell
+cd adomi-ps
+``` 
+4. executar os scripts NPM:
 ```shell
 npm start
 ```
@@ -16,4 +20,12 @@ pra testar todos os exercícios de uma vez, ou:
 ```shell
 npm run 1
 ```
-pra testar o exercício 1, `npm run 2` pra testar o 2 e `npm run 3` pra testar o 3.
+pra testar o exercício 1
+```shell
+npm run 2
+```
+pra testar o 2 e
+```shell
+npm run 3
+```
+pra testar o 3.
