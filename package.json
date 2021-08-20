@@ -1,0 +1,23 @@
+{
+  "name": "adomi-ps",
+  "version": "1.0.0",
+  "description": "Processo Seletivo - Adomi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "1": "node exercicios/1",
+    "2": "node exercicios/2",
+    "3": "node exercicios/3",
+    "test": "teste"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleiph/adomi-ps.git"
+  },
+  "author": "Ricardo Gomes",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/sleiph/adomi-ps/issues"
+  },
+  "homepage": "https://github.com/sleiph/adomi-ps#readme"
+}
