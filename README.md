@@ -14,3 +14,10 @@ no email tiago.sestari@adomi.com.br)
 - Você deve usar JavaScript.
 - Sua entrega deve conter instruções de como devemos testar as suas soluções.
 - Você deve entregar em até 7 dias a partir do envio do email.
+
+#### Instruções de teste:
+- Abrir arquivo index.html no navegador 
+- Pressionar tecla F12 para abrir o console
+- Verificar soluções dos exercícios
+- Caso queiram mudar valores das funções, alterar no arquivo solucoes.js
+
