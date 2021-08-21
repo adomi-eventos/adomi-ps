@@ -11,7 +11,7 @@ Crie uma função para verificar se um número é par ou ímpar e aplique-a na l
 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-### Resolução
+### Resolução:
 
 Utilizei o for para gerar um loop em todo o Array verificando se o produto de cada elemento dividido por 2 é igual a 0, sendo assim meu if/else teve a função de identificar se o produto de um elemento do Array é igual a 0. Ser for igual a 0 ele é par, se não for, ele é ímpar.
 
@@ -38,7 +38,7 @@ Depois foi só reatribuir os valores que eu queria em cada variável, sendo que 
 
 Repita o exercício anterior, mas seu algorítimo deve utilizar apenas atribuições entre a duas variáveis, sem declarar uma terceira.
 
-### Resolução
+### Resolução:
 
 Armazenei os 2 valores descritos no exercício em 2 variáveis e executei dois condicionais ternários alterando o valor de cada variável, caso seja true.
 
@@ -60,7 +60,7 @@ Iniciei um loop que o índice for menor ou igual a x(número escolhido pelo usu�
 
 Crie uma função que, recebendo o array gerado na função anterior, retorne a soma dos valores do array.
 
-### Resolução
+### Resolução:
 
 Utilizei o prototype reduce com 2 parâmetros(x, y) informando no escopo que, para cada elemento do Array ele vai pegar 2 valores(x e y) e somar, retornando a soma de todos os elementos do Array logo em seguida.
 
@@ -68,7 +68,7 @@ Utilizei o prototype reduce com 2 parâmetros(x, y) informando no escopo que, pa
 
 Crie uma função que, recebendo o array gerado na função anterior, retorne a soma dos valores do array. Utilize um algoritmo diferente do desafio 3b-1. (ex: se no desáfio 3b-1 seu algorítimo usou um loop, utilize recursão)
 
-### Resolução
+### Resolução:
 
 Criei uma função que recebe o array e os elemmentos gerados na função função anterior, criando 3 condicionais:
 
