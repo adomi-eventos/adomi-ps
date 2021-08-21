@@ -24,7 +24,7 @@ const fib = (x) => {
   return arr;
 }
 
-console.log(fib(100));
+console.log(`Exercício 3a : ${fib(100)}`);
 
 
 
@@ -38,7 +38,7 @@ for (let i = 0; i < arr.length; i++) {
     }
     return total;
 }
-console.log(soma(arr));
+console.log(`Exercício 3b-1 (desafio) : ${soma(arr)}`);
 
 // #### Exercício 3b-2 (desafio) 
 // Crie uma função que, recebendo o array gerado na função anterior, retorne a soma dos 
@@ -52,4 +52,4 @@ let total2 = arr2.reduce(function (soma, i) {
     return soma + i;
 })
 
-console.log(total2)
+console.log(`Exercício 3b-2 (desafio) : ${total2}`);

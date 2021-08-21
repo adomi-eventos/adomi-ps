@@ -17,7 +17,7 @@ const exchange = (A, B, C) => {
     C = A;
     A = B;
     B = C;
-    console.log(`A = ${A} e B = ${B}` )
+    console.log(`Exercício 2a : A = ${A} e B = ${B}` )
     
 }
 exchange(A, B, C)
@@ -38,4 +38,4 @@ B = 23;
 
 
 [A, B] = [B, A];
-console.log(`A = ${A} e B = ${B}`);
+console.log(`Exercício 2b (desafio) : A = ${A} e B = ${B}`);

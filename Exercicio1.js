@@ -17,7 +17,7 @@ let checkEven = list.map((num) => {
   }
 });
 //exibe o resultado no console
-console.log(checkEven);
+console.log(`Exercício 1 : ${checkEven}`);
 
 // #### Exercício 1b (desafio)
 
@@ -27,4 +27,4 @@ console.log(checkEven);
 let checkEvenReduced = list.map((item) => {
   return item % 2 === 0 ? `${item} is even` : `${item} it's not even`;
 });
-console.log(checkEvenReduced);
+console.log(`Exercício 1b (desafio) : ${checkEvenReduced}`);
