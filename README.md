@@ -14,3 +14,10 @@ no email tiago.sestari@adomi.com.br)
 - Você deve usar JavaScript.
 - Sua entrega deve conter instruções de como devemos testar as suas soluções.
 - Você deve entregar em até 7 dias a partir do envio do email.
+
+
+#### Minha entrega:
+- Coloquei cada exrcício e seus respectivos desafios em um arquivo .js separado
+- Usei JavaScript e para teste usei o Node.js
+- Para testar os arquivos, basta dar o comando node [nome do arquivo] no terminal que as respostas aparecerão
+- Caso não tenha o node instalado, abra o arquivo index.html e verifique as respostas no console.
