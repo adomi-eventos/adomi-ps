@@ -1,13 +1,13 @@
 # Processo Seletivo - Adomi
 
-Todos os exercícios estão separados em seus respetvios arquivos para uma melhor usuabilidade e teste.
+Todos os exercícios estão separados em seus respectvios arquivos para uma melhor usuabilidade e teste.
 Para testar as soluções, basta executar o console do arquivo desejado.
 
 ## Exercício 1
 
 ### Exercício 1a
 
-Crie uma função para verificar se um número é par ou impar e aplique-a na lista a seguir para imprimir quais números são pares e quais são ímpares.
+Crie uma função para verificar se um número é par ou ímpar e aplique-a na lista a seguir para imprimir quais números são pares e quais são ímpares.
 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
