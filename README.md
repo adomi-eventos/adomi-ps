@@ -1,16 +1,11 @@
-# Processo Seletivo - Adomi
+# Intruções de como testar as soluções
 
-#### Os exercícios estão no arquivo: [Exercícios](processo_seletivo.md)
+* Ter instalado VS code e Node.js
 
-#### Instruções para entrega:
-- Faça um Fork do repositório
-- Abra uma pull request da sua branch
+* Depois vá até o diretorio onde estão os arquivos 
 
-(se tiver dificuldade para seguir algum dos passos acima entre em contato
-no email tiago.sestari@adomi.com.br)
+* Entre no exercicio que deseja corrigir -> Pressione F5 -> Selecione a opção Node.js
 
-#### Formato de entrega:
-- Você pode organizar o(s) arquivo(s) com as soluções dos exercícios da forma que julgar melhor.
-- Você deve usar JavaScript.
-- Sua entrega deve conter instruções de como devemos testar as suas soluções.
-- Você deve entregar em até 7 dias a partir do envio do email.
+  ​
+
+* Você tambem pode abrir o Index.html para ver as respostas de todos os exercicios de uma vez.
