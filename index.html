@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Mateus Lopes</title>
+    <script>
+        // #########################################################################################
+        //EXECICIO 1A
+        document.write('<h1> Exercício 1a </h1>')
+        //Passando os valores da lista na variavel numeros
+        const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        numeros.forEach(function(numero){
+        //Utilizando o metodo forEach para executar a função em cada numero da lista
+        if(numero%2==0){
+            document.write(`${numero} é um número par </br>`)
+        }else{
+            document.write(`</br> ${numero} é um número ímpar </br></br>`)
+        }
+        })
+
+        document.write('<hr>')
+
+        // #########################################################################################
+        //EXECICIO 1B
+        document.write('<h1> Exercício 1b </h1>')
+        numeros.forEach((numero)=> numero%2==0 ? document.write(`${numero} é um número par </br>`) : document.write(`</br> ${numero} é um número ímpar </br></br>`))
+
+        document.write('<hr>')
+
+        // #########################################################################################
+        //EXECICIO 2A
+        document.write('<h1> Exercício 2a </h1>')
+        let A = 19;
+        let B = 23;
+        //Aqui fiz a utilização de blocos e do tipo LET de declaração pois o mesmo faz uma declaração local
+        {
+            let A = B;
+            document.write(`A= ${A}</br>`)
+        }
+        {
+            let B = A;
+            document.write(`B= ${B}</br>`)
+        }
+
+        //Outra opção de solução, porém aqui adicionando uma variavel nova
+        document.write('</br>Outra solução</br>')
+        let a = 19;
+        let b = 23;
+        let c = a;
+        a = b;
+        b = c;
+        document.write(`A= ${a}</br> B= ${b}</br>`)
+
+        document.write('<hr>')
+
+        // #########################################################################################
+        //EXECICIO 3A
+        document.write('<h1> Exercício 3a </h1>')
+        function fibonacci(limite){
+            let i;
+            //Declatando o array que ira conter os numeros da serie de Fibonacci
+            let fibo = [];
+
+            //Aqui eu coloco os valores 0 e 1 nas suas respectivas posições do array
+            fibo[0] = 0;
+            fibo[1] = 1;
+            document.write(fibo[0] + "<br/>")
+            document.write(fibo[1] + "<br/>")
+            //Loop que vai somando os dois numeros anteriores da sequencia de fibonacci
+            for(i=2; i<=limite; i++){
+                fibo[i] = fibo[i-2] + fibo[i-1];
+                document.write(fibo[i] + "<br/>")
+            }
+            return fibo;
+        }
+        //Colocando um limite de 10 para a repetição da função fibinacci e atribuindo ela para varivavel arrayFibo para o desafio 3b
+        let arrayFibo = fibonacci(10)
+
+        document.write('<hr>')
+
+        // #########################################################################################
+        //EXERCICIO 3B-1
+        document.write('<h1> Exercício 3b-1 </h1>')
+        function somaFibonacci(array){
+            let numero = 0;
+            for(let i=0; i<array.length; i++){
+                numero += array[i]
+            }
+            document.write(`A soma dos elementos do array da sequencia de Fibonacci é: ${numero}`)
+        };
+        somaFibonacci(arrayFibo)
+    </script>
+</head>
+<body>
+</body>
+</html>
