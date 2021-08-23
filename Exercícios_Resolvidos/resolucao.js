@@ -29,7 +29,7 @@
 
             botaoExplicacao1.innerHTML = "Fechar Explicação 1"
             explicacao1.innerHTML = `<p>Foi utilizado um laço de repetição, onde todo o array seria percorrido, 
-             verificando se o valor dividido por 2 teria um resto igual a zero, caracterizando um valor PAR, caso o resto
+            verificando se o valor dividido por 2 teria um resto igual a zero, caracterizando um valor PAR, caso o resto
             não fosse 0, caracteriza um valor ÍMPAR.</p>`
 
         }else{
@@ -98,8 +98,8 @@
             const botaoExplicacao2 = document.getElementById("botaoExplicacao2")
 
             botaoExplicacao2.innerHTML = "Fechar Explicação 2"
-            explicacao2.innerHTML = `<p>Foi criado duas variaveis para acomodar os valores, para que fosse
-            possível a inversão foi criado uma terceira variável clonado a variável A, para que fosse possível
+            explicacao2.innerHTML = `<p>Foi criada duas variaveis para acomodar os valores, para que fosse
+            possível a inversão foi criada uma terceira variável clonado a variável A, para que fosse possível
             efetuar a inversão sem influenciar o valor original de A, o que tornaria a troca não possível.</p>`
 
         }else{
@@ -151,7 +151,7 @@
             botaoExplicacao2b.innerHTML = "Fechar Explicação 2b"
             explicacao2b.innerHTML = `<p>Esse desafio consistia em executar a troca dos valores das variáveis utilizando apenas atribuições e sem criar uma nova variável.
             Para efetuar a troca foi foi atribuido ao valor A o valor clone de B, assim não modificando o valor inicial de B, e ao valor de B,
-            sabendo agora que o valor de A é ra o antigo valor de B, foi efetuado uma subtração para determinar o novo valor.</p>`
+            sabendo agora que o valor de A é o antigo valor de B, foi efetuado uma subtração para determinar o novo valor.</p>`
 
         }else{
 
@@ -163,7 +163,6 @@
     //-----------------------------------------------------------------------------------//
 
     // Exercício 3a        
-
     
         let fibonacci = []
         let ancora = [0]
@@ -243,19 +242,19 @@
             const botaoExplicacao3 = document.getElementById("botaoExplicacao3")
 
             botaoExplicacao3.innerHTML = "Fechar Explicação 3"
-            explicacao3.innerHTML += `<p> Foi criado uma variavel para armazenar os valores da sequencia que seria impresso em tela e uma variavel
+            explicacao3.innerHTML += `<p> Foi criado uma variável para armazenar os valores da sequencia que seria impresso em tela e uma variável
             para acessorar no início da operação. Quando criado a função operação foi utilizado um laço de repetição
             for, seguido de uma condição if, para forçar a operação a acrescentar inicialmente um valor 0 e um valor 1 
-            a variavel fibonacci e a variavel ancora para que assim que a operação pudesse seguir logicamente. E foi usado o metodo
+            à variavel fibonacci e à variavel ancora para que assim que a operação pudesse seguir logicamente. E foi usado o método
             map para deixar o array mais simpático para visualização em tela.</p>`
 
-            explicacao3.innerHTML += `<p>EXPLICAÇÃO 3b-1:  Para efetuar a soma dos números do array fibonacci foi utilizado o metodo reduce,
-            que transforma os todos os itens em apenas 1 item. Usando esse metodo foi possível somar o valor atual total, com o proximo
+            explicacao3.innerHTML += `<p>EXPLICAÇÃO 3b-1:  Para efetuar a soma dos números do array fibonacci foi utilizado o método reduce,
+            que transforma todos os itens em apenas 1. Usando esse método foi possível somar o valor atual total, com o próximo
             valor.</p>`
             explicacao3.innerHTML += `<p>EXPLICAÇÃO 3b-2:  Para efeturar a soma dos valores do array fibonacci foi utilizado a repetição for,
-           que seria efetuada enquanto o a condição i fosse menor que o tamanho do array fibonacci, também foi utilizado uma variavel chamada ancoragem
-           para ser a variavel que armazenasse os valores das somas, e por fim foi printado em tela o ultimo valor do array ancoragem, sabendo-se que
-           esse seria o maior valor.</p>`
+            que seria efetuada enquanto o a condição i fosse menor que o tamanho do array fibonacci, também foi utilizado uma variável chamada ancoragem
+            para ser a variável que armazenasse os valores das somas, e por fim foi printado em tela o último valor do array ancoragem, sabendo-se que
+            esse seria o maior valor.</p>`
 
         }else{
 
