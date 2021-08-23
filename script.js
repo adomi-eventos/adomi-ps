@@ -32,3 +32,33 @@ function parOuImparDesafio(numero) {
     lista.forEach(numero => numero % 2 == 0 ? console.log(`O número ${numero} é par.`) : console.log(`O número ${numero} é ímpar.`));
 }
 parOuImparDesafio();
+/* Exercício 2a: 
+Escreva um algoritmo que armazene o valor 19 em uma variável A
+e o valor 23 em uma variável B. A seguir troque os seus conteúdos fazendo com
+que o valor que está em A passe para B e vice-versa. Ao final, escrever os 
+valores que ficaram armazenados nas variáveis.
+*/
+
+/*
+Criei mais uma variavel com o valor de A para poder ser feita a troca corretamente.
+*/
+function trocarValor(A, B) {
+    const temp = 19;
+    A = 19;
+    B = 23;
+    A = B;
+    B = temp;
+
+    console.log(A, B);
+}
+trocarValor();
+
+/*Usei a forma mais moderna de se fazer com javascript. */
+
+function trocarValorDesafio(A, B) {
+    A = 19;
+    B = 23;
+    [A, B] = [B, A];
+    console.log(A, B);
+}
+trocarValorDesafio();
