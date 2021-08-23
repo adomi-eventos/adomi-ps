@@ -195,7 +195,8 @@
             const resposta3 = document.getElementById("resposta3")
             const botaoResposta3 = document.getElementById("botaoResposta3")
 
-           
+            alert(`ATENÇÃO: As respostas dos desafios 3b1 e 3b2 aparecem simultaneamente com essa resposta!`
+)
             botaoResposta3.innerHTML = "Fechar Resposta 3"   
 
         }else{
@@ -228,7 +229,8 @@
                  let imprime = ancoragem
                  
                  const resposta3b2 = document.getElementById('resposta3b2')
-                 resposta3b2.innerHTML = `<p>O valor da soma é: ${imprime}<p>`                 
+                 resposta3b2.innerHTML = `<p>O valor da soma é: ${imprime}<p>` 
+                                
              }  
           }        
     }
@@ -254,8 +256,6 @@
            que seria efetuada enquanto o a condição i fosse menor que o tamanho do array fibonacci, também foi utilizado uma variavel chamada ancoragem
            para ser a variavel que armazenasse os valores das somas, e por fim foi printado em tela o ultimo valor do array ancoragem, sabendo-se que
            esse seria o maior valor.</p>`
-
-           explicacao3.innerHTML += `<p>ATENÇÃO: As respostas dos desafios 3b1 e 3b2 aparecem simultaneamente com essa resposta!</p>`
 
         }else{
 
