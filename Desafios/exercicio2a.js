@@ -6,7 +6,7 @@ let b = 23
 let aux = a;
 
 a = b;
-b = x;
+b = aux;
 
 console.log(`A: ${a}`)
 console.log(`B: ${b}`)
