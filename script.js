@@ -62,3 +62,66 @@ function trocarValorDesafio(A, B) {
     console.log(A, B);
 }
 trocarValorDesafio();
+/*Exercício 3a 
+Crie uma função que salve os números da série de Fibonacci até chegar em x (parâmetro) interações em um array e imprima esse array.
+
+(A série de Fibonacci é a seguinte: 0, 1, 1, 2, 3, 5, 8, 13, 21, etc... Para calculá-la, o primeiro e segundo
+elementos valem 1, daí por diante, o “n-ésimo” elemento vale o (n-1)-ésimo elemento somado ao (n-2)-ésimo elemento (ex: 8 = 5 + 3))
+*/
+/*Criei uma condição se o valor for menor ou igual a 2 o numero recebe o valor - 1 senão ele entra em um loop onde o contador vale 1
+enquanto o contador for menor ao valor a variavel numero recebe ultimo + penultimo, penultimo recebe ultimo e o ultimo recebe o numero, depois utilizo o push para adicionar no array. */
+let penultimo = -1;
+    let ultimo = 1;
+    let numero;
+    let listaFibo = [];
+function fibo(valor) {
+   
+    if (valor <= 2)
+        numero = valor - 1;
+    else {
+        count = 1;
+        while (count <= valor) {
+            numero = ultimo + penultimo;
+            penultimo = ultimo;
+            ultimo = numero;
+            listaFibo.push(numero);
+            count++;
+            console.log(listaFibo);
+        }
+
+    }
+
+}
+
+fibo(8);
+/*Exercício 3b-1 (desafio) 
+Crie uma função que, recebendo o array gerado na função anterior, retorne a soma dos valores do array.
+ */ 
+/*
+Criei uma variavel somado para depois de fazer o loop onde o tamanho da listaFibo for menor que o contador i a variavel somado recebe a soma de tooos os numeros dentro da lista.
+*/
+function somaFiboValor(){
+    let somado = 0;
+    for(let i=0;i<listaFibo.length;i++){
+        somado +=listaFibo[i]
+       
+    }
+     console.log("A soma dos valores é " + somado + ".");
+}
+somaFiboValor();
+
+/* Exercício 3b-2 (desafio) 
+Crie uma função que, recebendo o array gerado na função anterior, retorne a soma dos 
+valores do array. Utilize um algoritmo diferente do desafio 3b-1. (ex: se no desáfio 3b-1 seu algorítimo usou
+um loop, utilize recursão)*/
+/*
+Utilizei o reduce para realizar a soma do array.
+fonte de referencia  https://raullesteves.medium.com/javascript-entendendo-o-reduce-de-uma-vez-por-todas-c4cbaa16e380
+
+*/
+function somaFiboValor2(){
+    let somado = listaFibo.reduce((somado,valor)=>somado+valor,0);
+    console.log("O valor da soma do array é " + somado);
+   
+}
+somaFiboValor2();
