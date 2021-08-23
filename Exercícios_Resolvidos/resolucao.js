@@ -1,12 +1,5 @@
 
-/*
-#### Exercício 1b (desafio) 
-
-Você consegue reduzir seu código para 1 linha?
-*/
-
-
- //Exercício 1a     
+//Exercício 1a     
     
     const lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -61,27 +54,11 @@ Você consegue reduzir seu código para 1 linha?
             botaoResposta1.innerHTML = "Ver Resposta 1"
              resposta1.innerHTML = ""
         }    
-    }              
-                  
-
+    }                   
    
     //-----------------------------------------------------------------------------------//
-  /*  
- 
-#### Exercício 2b (desafio)
-
-*/
-
- let A = [19]
- let B = [23]
-
- A = [...B] 
- B = [A - 4]
- console.log(A)
- console.log(B)
-
-
-    //Exercício 2a
+   
+      //Exercício 2a
 
     
     let verResposta2 = () => {
@@ -129,6 +106,57 @@ Você consegue reduzir seu código para 1 linha?
 
             explicacao2.innerHTML = ""
             botaoExplicacao2.innerHTML = "Ver Explicação 2"
+        }
+    }
+
+    //---------------------------------------------------------------------------------------------------//
+
+      //Exercício 2b (desafio)       
+
+          let verResposta2b = () => {
+
+          if(resposta2b.innerHTML.length == 0){
+
+            const resposta2b = document.getElementById("resposta2b")
+            const botaoResposta2b = document.getElementById("botaoResposta2b")
+
+            let A = [19]
+            let B = [23]
+
+           resposta2b.innerHTML += `<p>Esse é o antigo valor de A: ${A}`
+           resposta2b.innerHTML += `<p>Esse é o antigo Valor de B: ${B}`
+           
+            A = [...B] 
+            B = [A - 4]
+
+           resposta2b.innerHTML += `<p>Esse é o novo valor de A: ${A}`
+           resposta2b.innerHTML += `<p>Esse é o novo valor de B: ${B}`
+
+           botaoResposta2b.innerHTML = "Fechar Resposta 2b"   
+
+         }else{
+
+            resposta2b.innerHTML = ""
+            botaoResposta2b.innerHTML = "Ver Resposta 2b"
+        }
+    }
+
+       const verExplicacao2b = () => {
+
+        if(explicacao2b.innerHTML.length === 0){
+
+            const explicacao2b = document.getElementById("explicacao2b")
+            const botaoExplicacao2b = document.getElementById("botaoExplicacao2b")
+
+            botaoExplicacao2b.innerHTML = "Fechar Explicação 2b"
+            explicacao2b.innerHTML = `<p>Esse desafio consistia em executar a troca dos valores das variáveis utilizando apenas atribuições e sem criar uma nova variável.
+            Para efetuar a troca foi foi atribuido ao valor A o valor clone de B, assim não modificando o valor inicial de B, e ao valor de B,
+            sabendo agora que o valor de A é ra o antigo valor de B, foi efetuado uma subtração para determinar o novo valor.</p>`
+
+        }else{
+
+            explicacao2b.innerHTML = ""
+            botaoExplicacao2b.innerHTML = "Ver Explicação 2b"
         }
     }
 
@@ -182,17 +210,14 @@ Você consegue reduzir seu código para 1 linha?
          let novoFibonacci = fibonacci.map((valor) => {
                return valor
          })
-         
-          const teste = document.getElementById("teste")
-        
+              
           for(let i = 0; i < novoFibonacci.length; i++){
               resposta3.innerHTML += `<li>${novoFibonacci[i]}</li>`
 
               //Desafio 3b-1
               const soma = novoFibonacci.reduce((total, proximo) => total + proximo)
-              const teste2 = document.getElementById('teste2')
-              teste2.innerHTML = `<p>Esta é a resposta 3b1 ${soma}<p>`
-            
+              const resposta3b1 = document.getElementById('resposta3b1')
+              resposta3b1.innerHTML = `<p>O valor da soma é: ${soma}<p>`
 
              //Desafio 3b-2
 
@@ -202,15 +227,13 @@ Você consegue reduzir seu código para 1 linha?
                  ancoragem += novoFibonacci[i]
                  let imprime = ancoragem
                  
-                 const teste = document.getElementById('teste')
-                 teste.innerHTML = `<p>Esta é a resposta 3b2 ${imprime}<p>`                 
+                 const resposta3b2 = document.getElementById('resposta3b2')
+                 resposta3b2.innerHTML = `<p>O valor da soma é: ${imprime}<p>`                 
              }  
           }        
     }
 
-
-
-    const verExplicacao3 = () => {
+      const verExplicacao3 = () => {
 
         if(explicacao3.innerHTML.length === 0){
 
@@ -218,10 +241,21 @@ Você consegue reduzir seu código para 1 linha?
             const botaoExplicacao3 = document.getElementById("botaoExplicacao3")
 
             botaoExplicacao3.innerHTML = "Fechar Explicação 3"
-            explicacao3.innerHTML = `<p> Foi criado uma variavel para armazenar os valores da sequencia que seria impresso em tela e uma variavel
+            explicacao3.innerHTML += `<p> Foi criado uma variavel para armazenar os valores da sequencia que seria impresso em tela e uma variavel
             para acessorar no início da operação. Quando criado a função operação foi utilizado um laço de repetição
             for, seguido de uma condição if, para forçar a operação a acrescentar inicialmente um valor 0 e um valor 1 
-            a variavel fibonacci e a variavel ancora para que assim que a operação pudesse seguir logicamente.</p>`
+            a variavel fibonacci e a variavel ancora para que assim que a operação pudesse seguir logicamente. E foi usado o metodo
+            map para deixar o array mais simpático para visualização em tela.</p>`
+
+            explicacao3.innerHTML += `<p>EXPLICAÇÃO 3b-1:  Para efetuar a soma dos números do array fibonacci foi utilizado o metodo reduce,
+            que transforma os todos os itens em apenas 1 item. Usando esse metodo foi possível somar o valor atual total, com o proximo
+            valor.</p>`
+            explicacao3.innerHTML += `<p>EXPLICAÇÃO 3b-2:  Para efeturar a soma dos valores do array fibonacci foi utilizado a repetição for,
+           que seria efetuada enquanto o a condição i fosse menor que o tamanho do array fibonacci, também foi utilizado uma variavel chamada ancoragem
+           para ser a variavel que armazenasse os valores das somas, e por fim foi printado em tela o ultimo valor do array ancoragem, sabendo-se que
+           esse seria o maior valor.</p>`
+
+           explicacao3.innerHTML += `<p>ATENÇÃO: As respostas dos desafios 3b1 e 3b2 aparecem simultaneamente com essa resposta!</p>`
 
         }else{
 
@@ -231,13 +265,7 @@ Você consegue reduzir seu código para 1 linha?
     }
 
     
-/*
-#### Exercício 3b-1 (desafio) 
 
-
-#### Exercício 3b-2 (desafio) 
-
-*/
 
 
    
