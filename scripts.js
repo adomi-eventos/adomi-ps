@@ -46,12 +46,49 @@
 
 // -------------------------------------------------------------------------------------------------------------
 
-// Exercício 2
+// Exercício 3
+    // Partindo da noção de que a lógica fibonacci consiste na somatória sequencial dos dois últimos números para cada resultado, criei uma função que rodará um loop exercendo essa lógica. O número de vezes que o loop rodará é um parâmetro determinado na chamada da função. Exemplo: node -e 'require("./scripts").ex3a(8)'
+    // Para fazer a somatória de todos os valores presentes dentro do array gerado pela variável 'fibonacci', utilizei primeiro o método de array reduce e, na segunda tentativa, criei uma função que recebe a váriavel fibonacci como parâmetro e realiza a soma de item por item no array através de um loop.
 
+// a)
+    const ex3a = (n) => {
+    var fibonacci = []
+  
+    for(var i = 0; i <= n; i++) {
+        if(i === 0 || i === 1){
+            fibonacci.push(i)
+        } else {
+            const value = fibonacci[i-1] + fibonacci[i-2]
+            fibonacci.push(value)
+        }
+    }
+  
+    console.log(fibonacci)
+    ex3b(fibonacci)
+    ex3c(fibonacci) 
+  };
+  
+//  b) 
+    const ex3b = (array) => {
+    const totalB = array.reduce((array, somaFibonacci) => array + somaFibonacci )
+    console.log(totalB)
+}
+
+// c 
+    const ex3c = (array) => {
+	var totalC = 0
+	array.map(num => {
+		totalC = totalC + num
+	})
+	console.log(totalC)
+}
 
 module.exports = {
     ex1a,
     ex1b,
     ex2a,
-    ex2b
+    ex2b,
+    ex3a,
+    ex3b,
+    ex3c
 }
